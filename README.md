@@ -11,19 +11,19 @@ including the dead ends worth remembering.
 
 | Machine | Tier | OS | Difficulty | Core technique |
 | --- | --- | --- | --- | --- |
-| [Explosion](writeups/tier-0/explosion.md) | 0 | Windows | Very easy | Unauthenticated RDP with `xfreerdp` |
-| [Preignition](writeups/tier-0/preignition.md) | 0 | Linux | Very easy | Directory brute forcing, default `admin:admin` |
-| [Mongod](writeups/tier-0/mongod.md) | 0 | Linux | Very easy | MongoDB with authentication disabled |
-| [Synced](writeups/tier-0/synced.md) | 0 | Linux | Very easy | Anonymous `rsync` module |
-| [Responder](writeups/tier-1/responder.md) | 1 | Windows | Very easy | RFI to UNC path, Responder, NTLMv2 cracking, WinRM |
-| [Three](writeups/tier-1/three.md) | 1 | Linux | Very easy | Vhost discovery, writable S3 bucket as web root |
-| [Funnel](writeups/tier-1/funnel.md) | 1 | Linux | Very easy | Anonymous FTP, leaked password, SSH spray, port forward |
-| [Bike](writeups/tier-1/bike.md) | 1 | Linux | Very easy | Handlebars SSTI to Node.js RCE |
-| [Ignition](writeups/tier-1/ignition.md) | 1 | Linux | Very easy | Vhost redirect, default admin credentials |
-| [Pennyworth](writeups/tier-1/pennyworth.md) | 1 | Linux | Very easy | Jenkins Script Console, Groovy reverse shell |
-| [Tactics](writeups/tier-1/tactics.md) | 1 | Windows | Very easy | SMB null session, Impacket `psexec` |
-| [Vaccine](writeups/tier-2/vaccine.md) | 2 | Linux | Easy | Backup cracking, MD5 cracking, `sqlmap --os-shell` |
-| [Oopsie](writeups/tier-2/oopsie.md) | 2 | Linux | Easy | IDOR, cookie tampering, upload, SUID PATH hijack |
+| [Explosion](./tier-0/explosion.md) | 0 | Windows | Very easy | Unauthenticated RDP with `xfreerdp` |
+| [Preignition](./tier-0/preignition.md) | 0 | Linux | Very easy | Directory brute forcing, default `admin:admin` |
+| [Mongod](./tier-0/mongod.md) | 0 | Linux | Very easy | MongoDB with authentication disabled |
+| [Synced](./tier-0/synced.md) | 0 | Linux | Very easy | Anonymous `rsync` module |
+| [Responder](./tier-1/responder.md) | 1 | Windows | Very easy | RFI to UNC path, Responder, NTLMv2 cracking, WinRM |
+| [Three](./tier-1/three.md) | 1 | Linux | Very easy | Vhost discovery, writable S3 bucket as web root |
+| [Funnel](./tier-1/funnel.md) | 1 | Linux | Very easy | Anonymous FTP, leaked password, SSH spray, port forward |
+| [Bike](.tier-1/bike.md) | 1 | Linux | Very easy | Handlebars SSTI to Node.js RCE |
+| [Ignition](./tier-1/ignition.md) | 1 | Linux | Very easy | Vhost redirect, default admin credentials |
+| [Pennyworth](./tier-1/pennyworth.md) | 1 | Linux | Very easy | Jenkins Script Console, Groovy reverse shell |
+| [Tactics](./tier-1/tactics.md) | 1 | Windows | Very easy | SMB null session, Impacket `psexec` |
+| [Vaccine](./tier-2/vaccine.md) | 2 | Linux | Easy | Backup cracking, MD5 cracking, `sqlmap --os-shell` |
+| [Oopsie](./tier-2/oopsie.md) | 2 | Linux | Easy | IDOR, cookie tampering, upload, SUID PATH hijack |
 
 Thirteen boxes, each written from a finished session: starting scan through to the flag. Every entry follows
 the same shape so they can be read side by side.
